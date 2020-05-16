@@ -53,6 +53,8 @@ exports.dialogflowWebhook = functions.https.onRequest(async (request, response) 
     }
 
     async function userOnboardingHandler(agent) {
+
+        // backend
         const db = admin.firestore();
         const profile = db.collection('users').listDocuments('jeffd23');
 
