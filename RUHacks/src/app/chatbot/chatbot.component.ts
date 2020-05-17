@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-const dialogflowURL = 'https://YOUR-CLOUDFUNCTION/dialogflowGateway';
+const dialogflowURL = 'https://highbot-dcacf/dialogflowGateway';
 
 @Component({
   selector: 'app-chatbot',

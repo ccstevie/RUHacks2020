@@ -9,11 +9,13 @@ import { NbThemeModule, NbLayoutModule, NbChatModule, NbSpinnerModule } from '@n
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ChatbotComponent } from './chatbot/chatbot.component';
 import { NbSidebarModule, NbButtonModule } from '@nebular/theme';
+import { NebularComponent } from './nebular/nebular.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChatbotComponent
+    ChatbotComponent,
+    NebularComponent
   ],
   imports: [
     BrowserModule,
